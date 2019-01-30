@@ -19,6 +19,7 @@ function displayGifInfo() {
       if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
 
         var gifDiv = $("<div>");
+        gifDiv.addClass("col-sm");
 
 
         var rating = results[i].rating;
@@ -30,9 +31,9 @@ function displayGifInfo() {
 
         gifImage.attr("src", results[i].images.fixed_height.url);
 
-        gifDiv.append(p);
+       
         gifDiv.append(gifImage);
-
+        gifDiv.append(p);
 
         $("#gif-view").prepend(gifDiv);
 
@@ -54,6 +55,7 @@ function renderButtons() {
     a.addClass("btn");
     a.addClass("btn-outline-light");
     a.addClass("gif-btn");
+    a.addClass("mt-4");
 
     a.attr("data-name", gifs[i]);
 

@@ -22,6 +22,8 @@
             overflow: scroll;
             background-repeat: no-repeat;
         }
+
+   
         
 </style>
 
@@ -29,18 +31,21 @@
 
     <div class="container">
 
-        <div class="jumbotron">
+        <div class="jumbotron mb-1">
             <h1 class="text-center text-white"> GifTastic Fails</h1>
         </div>
 
         <br>
 
-
-        <form class="form-inline my-2 my-lg-0">
+    <nav class="navbar">
+        <form class="form-inline my-2 my-lg-0 m-4">
             <input class="form-control mr-sm-2" type="search" placeholder="text" aria-label="Search" id="gif-input">
             <button id= "add-gif" class="btn btn-outline-light my-2 my-sm-0" for="submit">Search</button>
             <br>
         </form>
+    </nav>
+
+    <br>
 
         <div class="container">
             <div id= "firstRow" class="row">
@@ -55,10 +60,10 @@
 
 
         <div class="container">
-            <div class="row">
-                <div class="col-sm" id='gif-view'>
+            <div class="row" id='gif-view'>
 
-                </div>
+            </div>
+               
             </div>
         </div>
 
