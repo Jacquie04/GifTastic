@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic!</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Unica+One|VT323" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<style>
+
+    body {
+            background-image: url("./assets/waterbackground.jpg");
+            background-size: cover;
+            height: 100%;
+            overflow: scroll;
+            background-repeat: no-repeat;
+        }
+        
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center text-white"> GifTastic Fails</h1>
+        </div>
+
+        <br>
+
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="text" aria-label="Search" id="gif-input">
+            <button id= "add-gif" class="btn btn-outline-light my-2 my-sm-0" for="submit">Search</button>
+            <br>
+        </form>
+
+        <div class="container">
+            <div id= "firstRow" class="row">
+
+            </div>
+            <br>
+
+        
+        </div>
+
+        <br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm" id='gif-view'>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <br>
+    <script src="./assets/javascript/app.js">
+    </script>
+
+</body>
+
+</html>

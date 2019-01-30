@@ -1,0 +1,27 @@
+.jumbotron {
+    background: none;
+}
+form {
+    position: absolute;
+    right: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'VT323', monospace;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+}
+
+button {
+    font-family: 'Unica One', cursive;
+}
+
+form {
+    font-family: 'VT323', monospace;
+}
